@@ -1,0 +1,761 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+
+}
+
+:root {
+    --primary: #292F36;
+    --secondary: #4D5053;
+    --white: #FFFFFF;
+    --orange: #CDA274;
+    --darkwhite: #F4F0EC;
+
+}
+
+.logo {
+    margin-right: 0.6rem;
+
+}
+
+.navbar-brand {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 2.5rem;
+    font-family: jost;
+
+}
+
+.navbar-nav li {
+    padding: 1.2rem;
+}
+
+.navbar-nav li a {
+    color: var(--primary);
+    font-size: 1.2rem;
+    /* font-family: jost; */
+}
+
+.search-icon {
+    font-size: 1.4rem;
+}
+
+.hero {
+    background-image: url(/images/Photo.png);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    border-radius: 3rem;
+}
+
+.header h1 {
+    padding-top: 10rem;
+    font-size: 4rem;
+    font-family: serif;
+    font-weight: 600;
+    width: 38%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header p {
+    margin-top: 1rem;
+    color: var(--secondary);
+    width: 33%;
+}
+
+.header button {
+    padding: 0.9rem 2.2rem;
+    color: var(--white);
+    background-color: var(--primary);
+    border-radius: 1rem;
+    border-color: transparent;
+}
+
+.header button i {
+    color: var(--orange);
+    margin-left: 0.4rem;
+}
+
+.secondhero {
+    margin-top: 6rem;
+    height: 40vh;
+}
+
+.project {
+    text-align: center;
+}
+
+.project h4 {
+    font-family: serif;
+    font-weight: 550;
+    margin-bottom: 1rem;
+    color: var(--primary);
+}
+
+.project p {
+    color: var(--secondary);
+    width: 70%;
+    text-align: center;
+    margin-left: 4rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.project button {
+    color: var(--secondary);
+    font-weight: 550;
+    background-color: white;
+    border-color: white;
+    border: transparent;
+}
+
+.project button i {
+    color: var(--orange);
+    margin-left: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.thirdhero {
+    height: 100vh;
+}
+
+.stylish h1 {
+    margin-top: 4rem;
+    font-family: serif;
+    font-weight: 550;
+    width: 80%;
+    color: var(--primary);
+}
+
+.stylish p {
+    margin-top: 1.5rem;
+    color: var(--secondary);
+    width: 90%;
+}
+
+.phone {
+    display: flex;
+}
+
+.phone i {
+    margin-top: 1rem;
+    border: 2px solid var(--darkwhite);
+    padding: 1.3rem 1.3rem;
+    border-radius: 3rem;
+    background-color: var(--darkwhite);
+    color: var(--orange);
+    font-size: 1.2rem;
+}
+
+.call {
+    margin-left: 1rem;
+}
+
+.call h6 {
+    margin-top: 1.5rem;
+    font-weight: 700;
+    color: var(--secondary);
+}
+
+.phone p {
+    color: var(--secondary);
+    padding-bottom: -10rem;
+    width: 100%;
+    margin-top: -0.5rem;
+}
+
+.getbutton button {
+    margin-top: 2rem;
+    padding: 0.9rem 2.2rem;
+    color: var(--white);
+    background-color: var(--primary);
+    border-radius: 1rem;
+    border-color: transparent;
+}
+
+.getbutton button i {
+    color: var(--orange);
+    margin-left: 0.4rem;
+}
+
+.image1 img {
+    border-bottom-left-radius: 7rem;
+    border-top-right-radius: 12rem;
+    height: 90%;
+
+}
+
+.forthhero {
+    background-color: var(--darkwhite);
+    height: 80vh;
+}
+
+.headerfourth {
+    width: 40%;
+    text-align: center;
+    padding-top: 2.5rem;
+    margin-left: 24rem;
+    margin-bottom: 4rem;
+}
+
+
+.headerfourth h1 {
+    color: var(--primary);
+    font-family: serif;
+    font-weight: 550;
+}
+
+.doflex {
+    display: flex;
+}
+
+.aboutus {
+    padding: 2.5rem 3rem;
+    border: 2px solid var(--white);
+    width: 32%;
+    background-color: var(--white);
+    border-radius: 2rem;
+}
+
+.image4 img {
+    border-radius: 3rem;
+}
+
+.namelist {
+    margin: 0.5rem 1rem;
+}
+
+.namelist h6 {
+    padding-top: 0.5rem;
+}
+
+.design {
+    justify-content: space-between;
+}
+
+.paragraph {
+    margin-top: 1.5rem;
+    width: 80%;
+}
+
+.fifthhero {
+    height: 120vh;
+}
+
+.followproject {
+    margin-bottom: 3rem;
+}
+
+.followproject h1 {
+    font-family: serif;
+    font-weight: 550;
+    margin-bottom: 1rem;
+}
+
+.followproject p {
+    width: 50%;
+    margin-left: 23rem;
+}
+
+.kitchen-image img {
+    border-radius: 2rem;
+}
+
+.header-kitchan h6 {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.flexdo {
+    margin-top: 3rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.arrow i {
+    margin-left: -3rem;
+    border: 2px solid var(--darkwhite);
+    padding: 1.4rem 1.4rem;
+    border-radius: 5rem;
+    background-color: var(--darkwhite);
+    color: var(--primary);
+    font-size: 1rem;
+    margin-top: -1rem;
+    cursor: pointer;
+}
+
+.changespace {
+    justify-content: space-around;
+}
+
+.sixthhero {
+    height: 90vh;
+}
+
+.sixthheader {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 45rem;
+}
+
+.headsix h1 {
+    font-family: serif;
+    font-weight: 550;
+    margin-bottom: 1.5rem;
+}
+
+.headsix p {
+    color: var(--secondary);
+    width: 70%;
+    margin-left: 10rem;
+    margin-bottom: 2.5rem;
+}
+
+.sixthflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.changesixth {
+    justify-content: space-around;
+
+}
+
+.firstcol {
+    border: 2px solid black;
+    padding: 1.5rem 1.5rem;
+    border-color: #E7E7E7;
+    border-radius: 3.5rem;
+    /* background-color: #F4F0EC; */
+}
+
+.imgsixth img {
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.sixthpara h4 {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    font-family: serif;
+    width: 80%;
+    font-weight: 550;
+    margin-bottom: 2rem;
+}
+
+/* .arrowsixth{
+    margin-right: 1rem;
+} */
+
+.arrowsixth i {
+    border: 2px solid var(--darkwhite);
+    padding: 1.1rem 1.1rem;
+    border-radius: 3rem;
+    background-color: var(--darkwhite);
+    color: var(--primary);
+    font-size: 0.8rem;
+    margin-top: -1rem;
+    cursor: pointer;
+}
+
+.movepart {
+    position: relative;
+}
+
+.domove {
+    /* border: 2px solid black; */
+    width: 45%;
+    font-size: 0.8rem;
+    margin-left: 2rem;
+    position: absolute;
+    margin-top: -22%;
+    right: 50%;
+}
+
+.domove p {
+    /* width: 70%; */
+    text-align: center;
+    margin-top: 0.6rem;
+    background-color: white;
+    padding: 0.7rem 0rem;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+
+}
+
+.sevensection {
+    height: 50vh;
+}
+
+.sectionpart {
+    background-color: var(--primary);
+    height: 40vh;
+    border-radius: 3.5rem;
+}
+
+.sectionpart h1 {
+    padding-top: 3rem;
+    color: var(--white);
+    font-family: serif;
+    margin-bottom: 1.5rem;
+}
+
+.sectionpart p {
+    color: var(--white);
+    margin-bottom: 3rem;
+
+}
+
+.sectionpart button {
+    padding: 0.9rem 2.2rem;
+    color: var(--white);
+    background-color: #CDA274;
+    border-radius: 1rem;
+    border-color: transparent;
+}
+
+.sectionpart button i {
+    color: var(--primary);
+    margin-left: 0.3rem;
+}
+
+.foot {
+    /* height: 60vh; */
+    margin-top: 3rem;
+}
+
+.headfoot h1 {
+    font-family: serif;
+    font-weight: 550;
+}
+
+.footpara {
+    margin-top: 1rem;
+}
+
+.footpara p {
+    color: var(--secondary);
+    margin-bottom: 2rem;
+}
+
+.icon i {
+    padding: 0rem 1rem;
+    font-size: 1.2rem;
+}
+
+.pagepart {
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.contactpart h5 {
+    margin-bottom: 1.5rem;
+
+}
+
+.listpart li {
+    padding: 0.5rem 0rem;
+    color: var(--secondary);
+}
+
+.lastpart {
+    margin-top: 3rem;
+    color: var(--secondary);
+}
+
+/* Mobile responsive */
+/* 568px */
+
+
+@media screen and (max-width:768px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav li {
+        padding: 0.7rem 0rem;
+    }
+
+    .search-icon {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .header h1 {
+        width: 60%;
+        font-size: 3rem;
+    }
+
+    .project p {
+        width: 90%;
+        margin-left: 1rem;
+    }
+
+    .stylish h1 {
+        width: 90%;
+    }
+
+    .stylish p {
+        text-align: justify;
+    }
+
+    .image1 img {
+        margin-top: 4rem;
+    }
+
+    .headerfourth h1 {
+        margin-left: -20rem;
+    }
+
+    .forthhero {
+        height: 115vh;
+    }
+
+    .nextus {
+        width: 49%;
+        padding: 1rem 2rem;
+    }
+
+
+    .arkoabout {
+        width: 70%;
+        margin-top: 2.5rem;
+        margin-left: 7rem;
+    }
+
+
+    .arkoabout p {
+        width: 130%;
+    }
+
+    .followproject p {
+        width: 70%;
+        margin-left: 8rem;
+        margin-top: 1.5rem;
+    }
+
+    .fifthhero {
+        height: 330vh;
+    }
+
+    .modernkitchen {
+        width: 78%;
+    }
+
+    .sixthhero {
+        height: 165vh;
+    }
+
+    .firstcol {
+        width: 45%;
+        margin-bottom: 2rem;
+    }
+
+    .footpara p {
+        width: 102%;
+    }
+
+    .icon i {
+        padding: 0rem 0.5rem;
+    }
+}
+
+@media screen and (max-width:578px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    .navbar-brand {
+        margin-left: -7rem;
+    }
+
+    .navbar-toggler {
+        border-color: white
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .search-icon {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .navbar-nav li {
+        padding: 0.3rem 0rem;
+
+    }
+
+    .unique {
+        font-size: small;
+    }
+
+    .header p {
+        width: 90%;
+    }
+
+    .hero {
+        height: 65vh;
+        margin-bottom: -3rem;
+    }
+
+    .secondhero {
+
+        height: 70vh;
+    }
+
+    .project {
+        margin-top: -1;
+        margin-bottom: 2rem;
+    }
+
+    .kitchen-image img {
+        width: 100%;
+    }
+
+    .stylish h1 {
+        margin-top: 16rem;
+        text-align: center;
+        margin-left: 1.7rem;
+        font-size: 1.4rem;
+    }
+
+    .stylish p {
+        text-align: center;
+        text-align: justify;
+        margin-left: 1.5rem;
+    }
+
+    .thirdhero {
+        height: 135vh;
+        margin-top: -18rem;
+    }
+
+    .phone {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .phone i {
+        margin-left: 3rem;
+    }
+
+    .call {
+        margin-right: 4rem;
+    }
+
+    .getbutton {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .getbutton button {
+        font-size: 0.8rem;
+        padding: 1rem 1rem;
+    }
+
+    .image1 img {
+        text-align: center;
+        margin-top: -3rem;
+    }
+
+    .forthhero {
+        margin-top: 1.2rem;
+        height: 115vh;
+    }
+
+    .headerfourth h1 {
+        width: 190%;
+        font-size: 1.5rem;
+    }
+
+    .aboutus {
+        width: 100%;
+        margin-bottom: 1.5rem;
+        padding: 1rem 1rem;
+
+    }
+
+    .doflex {
+        justify-content: center;
+    }
+
+    .paragraph p {
+        text-align: center;
+        margin-left: 2rem;
+        width: 90%;
+    }
+
+    .followproject p {
+        width: 90%;
+        margin-left: 1rem;
+        margin-top: 1.2rem;
+    }
+
+    .fifthhero {
+        height: 280vh;
+    }
+
+    .arrow i {
+        margin-left: 3rem;
+        margin-top: -0.1rem;
+    }
+
+    .headsix p {
+        margin-left: 3rem;
+        width: 80%;
+    }
+
+    .sixthhero {
+        height: 305vh;
+        margin-top: -52rem;
+    }
+
+    .sixthheader {
+        padding-top: 3rem;
+    }
+
+    .firstcol {
+        margin-bottom: 2rem;
+        padding: 2rem 2rem;
+    }
+
+    .sectionpart {
+        padding: 1rem 2rem;
+    }
+
+    .sectionpart button {
+        font-size: 0.8rem;
+        padding: 1rem 1rem;
+    }
+
+    .footpart {
+        margin-top: -3rem;
+    }
+
+    .footimg img {
+        margin-top: -0.8rem;
+    }
+
+    .pagepart {
+        margin-top: 1.5rem;
+    }
+
+    .contactpart {
+        margin-left: 2rem;
+    }
+}
